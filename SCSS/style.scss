@@ -1,0 +1,367 @@
+/*Navbar */
+
+.navbar-brand {
+  font-family: "DM Serif Text", serif;
+  text-transform: uppercase;
+  font-size: 40px;
+  color: #030307;
+}
+
+.navbar-brand:hover {
+  text-decoration: none;
+  color: #030307;
+}
+
+.nav-link {
+  font-family: "DM Serif Text", serif;
+  text-decoration: none;
+  font-size: 16px;
+  color: #030307;
+}
+
+.nav-link:hover {
+  color: #030307;
+  text-decoration: underline;
+}
+
+/* Home */
+.blockquote {
+  color: #030307;
+  margin-top: 50px;
+  font-size: 40px;
+  font-family: "DM Serif Text", serif;
+  //   background-image: url("../Imagenes/Media/back2black.jpg");
+  //   background-position: center;
+}
+
+.cite {
+  font-family: "DM Serif Text", serif;
+  color: #b1946a;
+}
+
+.lead__wrapper {
+  text-align: center;
+}
+
+.lead__custom {
+  margin-top: 50px;
+  font-size: 40px;
+  font-family: "DM Serif Text", serif;
+  color: black;
+  .lead__custom-color {
+    font-size: 50px;
+    font-weight: bold;
+    color: #b1946a;
+  }
+}
+
+.cards__img {
+  height: 300px;
+}
+
+.title__resumen {
+  font-family: "DM Serif Text", serif;
+  color: #030307;
+}
+
+.resumen__subtitle {
+  font-family: "DM Serif Text", serif;
+  color: #b1946a;
+  font-weight: bold;
+}
+
+.resumen__text {
+  font-family: "DM Serif Text", serif;
+  color: #030307;
+}
+
+/* Arcanos */
+
+.arcanos__mayores-title,
+.arcanos__menores-title {
+  font-family: "DM Serif Text", serif;
+  font-size: 40px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  color: #b1946a;
+}
+
+.arcanos__mayores-subtitle,
+.arcanos__menores-subtitle {
+  font-size: 16px;
+  font-family: "DM Serif Text", serif;
+}
+
+.card__text-custom {
+  color: #030307;
+  font-family: "DM Serif Text", serif;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 15px;
+  border-color: transparent;
+  border-radius: 25px;
+}
+
+// .card:hover {
+//   background-color: #36373b;
+// }
+
+.card__title {
+  font-family: "DM Serif Text", serif;
+  font-size: 30px;
+  color: #030307;
+}
+
+// .card__title:hover {
+//   color: #b1946a;
+// }
+.card__text {
+  font-size: 16px;
+  font-family: "DM Serif Text", serif;
+  color: #030307;
+  width: 300px;
+  text-align: center;
+}
+
+// .card__text:hover {
+//   color: #f1e7eb;
+// }
+
+/* Lecturas */
+
+.tirada__title {
+  font-family: "DM Serif Text", serif;
+  font-size: 40px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  color: #b1946a;
+}
+
+.num__title,
+.sentido__title,
+.tirada__pasos-title {
+  font-family: "DM Serif Text", serif;
+  font-size: 30px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  color: #b1946a;
+}
+
+.tirada__subtitle,
+.num__subtitle,
+.sentido__subtitle {
+  font-size: 16px;
+  font-family: "DM Serif Text", serif;
+  color: #030307;
+}
+
+.num__list {
+  text-align: center;
+  list-style-position: inside;
+  font-family: "DM Serif Text", serif;
+  font-size: 16px;
+  color: #030307;
+}
+
+.tirada__list {
+  font-size: 16px;
+  font-family: "DM Serif Text", serif;
+  color: #030307;
+  text-decoration: none;
+  list-style: none;
+}
+
+.tiradas {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.tiradasuno,
+.tiradasdos {
+  font-size: 30px;
+  font-family: "DM Serif Text", serif;
+  letter-spacing: 5px;
+  color: #b1946a;
+}
+
+.tiradasuno__subtitle,
+.tiradasdos__subtitle {
+  font-size: 16px;
+  font-family: "DM Serif Text", serif;
+  color: #030307;
+}
+
+.img__divider {
+  height: 200px;
+}
+
+.tiradasuno__text,
+.tiradasdos__text {
+  font-size: 16px;
+  font-family: "DM Serif Text", serif;
+  color: #030307;
+}
+
+/* Oráculo */
+
+.oraculo__title {
+  font-family: "DM Serif Text", serif;
+  font-size: 40px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  color: #b1946a;
+}
+
+.oraculo__subtitle {
+  font-size: 16px;
+  font-family: "DM Serif Text", serif;
+  color: #030307;
+}
+
+.button {
+  display: grid;
+}
+
+.button__custom {
+  background-color: #752f48;
+  border-color: #752f48;
+  color: #fdfdfd;
+}
+
+.button__custom:hover {
+  background-color: #b1946a;
+  border-color: #b1946a;
+  color: #030307;
+}
+
+.modal__title-custom {
+  font-size: 20px;
+  font-family: "DM Serif Text", serif;
+  font-weight: bold;
+  color: #030307;
+}
+
+.modal__body-custom {
+  font-size: 16px;
+  font-family: "DM Serif Text", serif;
+  text-align: center;
+  color: #030307;
+}
+
+.modal__body__title {
+  font-weight: bold;
+}
+
+.modal__btn-custom {
+  background-color: #030307;
+}
+
+.ty__btn-custom {
+  background-color: #752f48;
+}
+
+.modal__btn-custom:hover {
+  background-color: #b1946a;
+  border-color: #b1946a;
+  color: #030307;
+}
+
+.ty__btn-custom:hover {
+  background-color: #b1946a;
+  border-color: #b1946a;
+  color: #030307;
+}
+
+.card-body {
+  font-size: 16px;
+  font-family: "DM Serif Text", serif;
+  border-radius: 10px;
+  color: #030307;
+}
+
+.fuentes__link {
+  font-family: "DM Serif Text", serif;
+  color: #030307;
+}
+
+.fuentes__link:hover {
+  font-weight: bold;
+  text-decoration: none;
+  color: #b1946a;
+}
+
+/* Contacto */
+
+.header__title {
+  font-family: "DM Serif Text", serif;
+  font-size: 40px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  color: #b1946a;
+}
+
+.header__subtitle {
+  font-size: 16px;
+  font-family: "DM Serif Text", serif;
+  color: #030307;
+}
+
+.contact__btn-custom {
+  background-color: #752f48;
+  border-color: #752f48;
+  font-family: "DM Serif Text", serif;
+}
+
+.contact__btn-custom:hover {
+  background-color: #b1946a;
+  border-color: #b1946a;
+  color: #fdfdfd;
+}
+
+.contact__input,
+.contact__text {
+  font-size: 16px;
+  font-family: "DM Serif Text", serif;
+  color: #030307;
+  border: 1px solid #752f48;
+}
+
+.contact__input:hover,
+.contact__text:hover {
+  border: 2px solid #b1946a;
+}
+
+/*Footer */
+
+.footer {
+  font-family: "DM Serif Text", serif;
+  font-size: 16px;
+  background-color: #fdfdfd;
+  color: #030307;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  height: 100px;
+}
+.footer__title {
+  color: #030307;
+}
+.footer__icon-logo {
+  height: 30px;
+}
+
+@media (min-width: 300px) and (max-width: 786px) {
+  .nav {
+    display: inline-flex;
+    flex-flow: nowrap;
+  }
+
+  .navbar-brand {
+    margin: auto;
+  }
+}
