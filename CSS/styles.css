@@ -287,4 +287,6 @@
     display: inline-flex;
     flex-flow: nowrap; }
   .navbar-brand {
-    margin: auto; } }
+    margin: auto; }
+  .button__custom {
+    margin-bottom: 30px; } }
