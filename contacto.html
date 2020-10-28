@@ -14,13 +14,9 @@
       name="description"
       content="Dejanos un mensaje en nuestro formulario y nos pondremos en contacto."
     />
-
-    <!--load all styles -->
     <link
       rel="stylesheet"
-      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
-      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
-      crossorigin="anonymous"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     />
     <!-- CSS only -->
     <link
@@ -38,7 +34,8 @@
   </head>
   <body>
     <header>
-      <nav class="navbar">
+      <nav class="navbar animate__animated animate__fadeIn">
+        <!--Dejo el fadeIn sin animate__slow para probar y comparar-->
         <a class="navbar-brand" href="index.html">Bewitched</a>
         <ul class="nav justify-content-end">
           <li class="nav-item">
@@ -102,12 +99,14 @@
     </section>
 
     <footer class="container-fluid footer mt-5">
-      <!-- <img src="./Imagenes/Media/handcard.jpg" alt="mano con cartas de tarot" /> -->
       <div class="footer__title">Bewitched</div>
       <div>&copy; 2020 Maca Cantoni</div>
       <div class="footer_icon">
-        <a href="https://www.instagram.com/maccantoni/" target="_blank"
-          ><i class="fab fa-instagram"></i>
+        <a href="https://www.instagram.com/maccantoni/" target="_blank">
+          <img
+            src="./Imagenes/Media/instagram.svg"
+            class="footer__icon-logo mt-1"
+          />
         </a>
       </div>
     </footer>

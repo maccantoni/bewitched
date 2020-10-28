@@ -1,15 +1,27 @@
-/*Navbar */
+@mixin titles {
+  font-family: "DM Serif Text", serif;
+  font-size: 40px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  color: #b1946a;
+}
 
+@mixin subtitles {
+  font-size: 16px;
+  font-family: "DM Serif Text", serif;
+  color: #030307;
+}
+
+/*Navbar */
 .navbar-brand {
   font-family: "DM Serif Text", serif;
   text-transform: uppercase;
   font-size: 40px;
   color: #030307;
-}
-
-.navbar-brand:hover {
-  text-decoration: none;
-  color: #030307;
+  &:hover {
+    text-decoration: none;
+    color: #030307;
+  }
 }
 
 .nav-link {
@@ -17,11 +29,10 @@
   text-decoration: none;
   font-size: 16px;
   color: #030307;
-}
-
-.nav-link:hover {
-  color: #030307;
-  text-decoration: underline;
+  &:hover {
+    color: #030307;
+    text-decoration: underline;
+  }
 }
 
 /* Home */
@@ -30,8 +41,6 @@
   margin-top: 50px;
   font-size: 40px;
   font-family: "DM Serif Text", serif;
-  //   background-image: url("../Imagenes/Media/back2black.jpg");
-  //   background-position: center;
 }
 
 .cite {
@@ -79,17 +88,12 @@
 
 .arcanos__mayores-title,
 .arcanos__menores-title {
-  font-family: "DM Serif Text", serif;
-  font-size: 40px;
-  text-transform: uppercase;
-  letter-spacing: 5px;
-  color: #b1946a;
+  @include titles;
 }
 
 .arcanos__mayores-subtitle,
 .arcanos__menores-subtitle {
-  font-size: 16px;
-  font-family: "DM Serif Text", serif;
+  @include subtitles;
 }
 
 .card__text-custom {
@@ -106,19 +110,12 @@
   border-radius: 25px;
 }
 
-// .card:hover {
-//   background-color: #36373b;
-// }
-
 .card__title {
   font-family: "DM Serif Text", serif;
   font-size: 30px;
   color: #030307;
 }
 
-// .card__title:hover {
-//   color: #b1946a;
-// }
 .card__text {
   font-size: 16px;
   font-family: "DM Serif Text", serif;
@@ -127,18 +124,10 @@
   text-align: center;
 }
 
-// .card__text:hover {
-//   color: #f1e7eb;
-// }
-
 /* Lecturas */
 
 .tirada__title {
-  font-family: "DM Serif Text", serif;
-  font-size: 40px;
-  text-transform: uppercase;
-  letter-spacing: 5px;
-  color: #b1946a;
+  @include titles;
 }
 
 .num__title,
@@ -154,9 +143,7 @@
 .tirada__subtitle,
 .num__subtitle,
 .sentido__subtitle {
-  font-size: 16px;
-  font-family: "DM Serif Text", serif;
-  color: #030307;
+  @include subtitles;
 }
 
 .num__list {
@@ -210,17 +197,11 @@
 /* Oráculo */
 
 .oraculo__title {
-  font-family: "DM Serif Text", serif;
-  font-size: 40px;
-  text-transform: uppercase;
-  letter-spacing: 5px;
-  color: #b1946a;
+  @include titles;
 }
 
 .oraculo__subtitle {
-  font-size: 16px;
-  font-family: "DM Serif Text", serif;
-  color: #030307;
+  @include subtitles;
 }
 
 .button {
@@ -228,15 +209,17 @@
 }
 
 .button__custom {
-  background-color: #752f48;
-  border-color: #752f48;
-  color: #fdfdfd;
-}
-
-.button__custom:hover {
   background-color: #b1946a;
   border-color: #b1946a;
   color: #030307;
+  transition: background-color 0.5s ease-in-out;
+  transition: border-color 0.5s ease-in-out;
+  transition: color 0.5s ease-in-out;
+  &:hover {
+    background-color: #752f48;
+    border-color: #752f48;
+    color: #fdfdfd;
+  }
 }
 
 .modal__title-custom {
@@ -259,22 +242,20 @@
 
 .modal__btn-custom {
   background-color: #030307;
+  &:hover {
+    background-color: #b1946a;
+    border-color: #b1946a;
+    color: #030307;
+  }
 }
 
 .ty__btn-custom {
   background-color: #752f48;
-}
-
-.modal__btn-custom:hover {
-  background-color: #b1946a;
-  border-color: #b1946a;
-  color: #030307;
-}
-
-.ty__btn-custom:hover {
-  background-color: #b1946a;
-  border-color: #b1946a;
-  color: #030307;
+  &:hover {
+    background-color: #b1946a;
+    border-color: #b1946a;
+    color: #030307;
+  }
 }
 
 .card-body {
@@ -287,40 +268,32 @@
 .fuentes__link {
   font-family: "DM Serif Text", serif;
   color: #030307;
-}
-
-.fuentes__link:hover {
-  font-weight: bold;
-  text-decoration: none;
-  color: #b1946a;
+  &:hover {
+    font-weight: bold;
+    text-decoration: none;
+    color: #b1946a;
+  }
 }
 
 /* Contacto */
 
 .header__title {
-  font-family: "DM Serif Text", serif;
-  font-size: 40px;
-  text-transform: uppercase;
-  letter-spacing: 5px;
-  color: #b1946a;
+  @include titles;
 }
 
 .header__subtitle {
-  font-size: 16px;
-  font-family: "DM Serif Text", serif;
-  color: #030307;
+  @include subtitles;
 }
 
 .contact__btn-custom {
   background-color: #752f48;
   border-color: #752f48;
   font-family: "DM Serif Text", serif;
-}
-
-.contact__btn-custom:hover {
-  background-color: #b1946a;
-  border-color: #b1946a;
-  color: #fdfdfd;
+  &:hover {
+    background-color: #b1946a;
+    border-color: #b1946a;
+    color: #fdfdfd;
+  }
 }
 
 .contact__input,
@@ -329,11 +302,9 @@
   font-family: "DM Serif Text", serif;
   color: #030307;
   border: 1px solid #752f48;
-}
-
-.contact__input:hover,
-.contact__text:hover {
-  border: 2px solid #b1946a;
+  &:hover {
+    border: 2px solid #b1946a;
+  }
 }
 
 /*Footer */

@@ -5,20 +5,18 @@
   text-transform: uppercase;
   font-size: 40px;
   color: #030307; }
-
-.navbar-brand:hover {
-  text-decoration: none;
-  color: #030307; }
+  .navbar-brand:hover {
+    text-decoration: none;
+    color: #030307; }
 
 .nav-link {
   font-family: "DM Serif Text", serif;
   text-decoration: none;
   font-size: 16px;
   color: #030307; }
-
-.nav-link:hover {
-  color: #030307;
-  text-decoration: underline; }
+  .nav-link:hover {
+    color: #030307;
+    text-decoration: underline; }
 
 /* Home */
 .blockquote {
@@ -72,7 +70,8 @@
 .arcanos__mayores-subtitle,
 .arcanos__menores-subtitle {
   font-size: 16px;
-  font-family: "DM Serif Text", serif; }
+  font-family: "DM Serif Text", serif;
+  color: #030307; }
 
 .card__text-custom {
   color: #030307;
@@ -180,14 +179,16 @@
   display: grid; }
 
 .button__custom {
-  background-color: #752f48;
-  border-color: #752f48;
-  color: #fdfdfd; }
-
-.button__custom:hover {
   background-color: #b1946a;
   border-color: #b1946a;
-  color: #030307; }
+  color: #030307;
+  transition: background-color 0.5s ease-in-out;
+  transition: border-color 0.5s ease-in-out;
+  transition: color 0.5s ease-in-out; }
+  .button__custom:hover {
+    background-color: #752f48;
+    border-color: #752f48;
+    color: #fdfdfd; }
 
 .modal__title-custom {
   font-size: 20px;
@@ -206,19 +207,17 @@
 
 .modal__btn-custom {
   background-color: #030307; }
+  .modal__btn-custom:hover {
+    background-color: #b1946a;
+    border-color: #b1946a;
+    color: #030307; }
 
 .ty__btn-custom {
   background-color: #752f48; }
-
-.modal__btn-custom:hover {
-  background-color: #b1946a;
-  border-color: #b1946a;
-  color: #030307; }
-
-.ty__btn-custom:hover {
-  background-color: #b1946a;
-  border-color: #b1946a;
-  color: #030307; }
+  .ty__btn-custom:hover {
+    background-color: #b1946a;
+    border-color: #b1946a;
+    color: #030307; }
 
 .card-body {
   font-size: 16px;
@@ -229,11 +228,10 @@
 .fuentes__link {
   font-family: "DM Serif Text", serif;
   color: #030307; }
-
-.fuentes__link:hover {
-  font-weight: bold;
-  text-decoration: none;
-  color: #b1946a; }
+  .fuentes__link:hover {
+    font-weight: bold;
+    text-decoration: none;
+    color: #b1946a; }
 
 /* Contacto */
 .header__title {
@@ -252,11 +250,10 @@
   background-color: #752f48;
   border-color: #752f48;
   font-family: "DM Serif Text", serif; }
-
-.contact__btn-custom:hover {
-  background-color: #b1946a;
-  border-color: #b1946a;
-  color: #fdfdfd; }
+  .contact__btn-custom:hover {
+    background-color: #b1946a;
+    border-color: #b1946a;
+    color: #fdfdfd; }
 
 .contact__input,
 .contact__text {
@@ -264,10 +261,9 @@
   font-family: "DM Serif Text", serif;
   color: #030307;
   border: 1px solid #752f48; }
-
-.contact__input:hover,
-.contact__text:hover {
-  border: 2px solid #b1946a; }
+  .contact__input:hover,
+  .contact__text:hover {
+    border: 2px solid #b1946a; }
 
 /*Footer */
 .footer {
